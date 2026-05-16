@@ -1,0 +1,33 @@
+name: smartsecure
+description: SmartSecure — Find. Book. Store.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  cupertino_icons: ^1.0.6
+  http: ^1.6.0
+  flutter_secure_storage: ^10.0.0
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.1
+  shared_preferences: ^2.5.4
+  geolocator: ^14.0.2
+  mobile_scanner: ^6.0.2
+  pretty_qr_code: ^3.6.0
+  image_picker: ^1.1.0
+  fl_chart: ^0.69.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
